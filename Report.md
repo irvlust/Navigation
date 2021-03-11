@@ -212,10 +212,6 @@ The previous Double DQN agent is recycled here with a change to only the neural 
 
 It was decided to use the following forward mapping (the 2nd module alternative cited in the above mentioned published paper) of the value (V) and advantage (A) functions:
 
-\begin{equation}
-Q(s,a;{\theta},{\alpha},{\beta})=V(s;{\theta},{\beta}) + (A(s,a;{\theta},{\alpha}) - \frac{1}{|A|}\sum\_{a'}A(s,a';{\theta},{\alpha}))
-\end{equation}
-
 ![formula](https://render.githubusercontent.com/render/math?math=Q(s,a%3B\theta,\alpha,\beta)=V(s%3B\theta,\beta)%2B(A(s,a%3B\theta,\alpha)-\frac{1}{|A|}\sum_{a'}A(s,a'%3B\theta,\alpha)))
 
 R%2B{\gamma}\hat{q}(S',argmax_a\hat{q}(S',a,w),w^{-}))
