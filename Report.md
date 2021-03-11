@@ -340,7 +340,7 @@ The `Project 1.ipynb` jupyter notebook is composed of the following cells:
 
 Load the `Project 1.ipynb` jupyter notebook and initialize the overall environment by running items 1 through 4 in the above table. Once this is done, you can train one of the agents (one of items 5 through 9) or just run a trained agent (item 10).
 
-In the case of all the test runs that were done, the notebook kernal was restarted and items 1 through 4 were rerun before training each agent. I had the impression that not doing that resulted in better results and therefore wanted to start the different training sessions from the same starting point. However, this wasn't investigated thoroughly. I leave it up to the user to decide whether a notebook kernal restart is done when starting a new agent training session.
+In the case of all the test runs that were done, the notebook kernal was restarted and items 1 through 4 were rerun before training each agent. I had the impression that doing that resulted in better results and therefore wanted to start the different training sessions from the same starting point. However, this wasn't investigated thoroughly. I leave it up to the user to decide whether a notebook kernal restart is done when starting a new agent training session.
 
 ## Results
 
