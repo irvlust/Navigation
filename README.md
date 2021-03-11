@@ -28,4 +28,4 @@ Then, place the file in the main project directory folder and unzip (or decompre
 
 ## Instructions
 
-It is assumed that the user is familiar with how to load and execute jupyter notebooks. The `Report.ipynb` notebook is a project summary report which includes a decription of the implementation, learning algorithm(s), hyperparameters, neural net model architectures, reward/episode plots and ideas for future work. The summary report should be read first as it explains the order in which to run the project notebook. The `Project 1.ipynb` jupyter notebook provides the code for running and training the actual agent(s).
+The [Report.md](Report.md) file (also available in notebook format `Report.ipynb`) is a project summary report which includes a decription of the implementation, learning algorithm(s), hyperparameters, neural net model architectures, reward/episode plots and ideas for future work. The summary report should be read first as it explains the order in which to run the project notebook. The `Project 1.ipynb` jupyter notebook provides the code for running and training the actual agent(s).
