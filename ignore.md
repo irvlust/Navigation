@@ -133,26 +133,24 @@ The following sections provide a short discussion of each of the developed agent
 
 As previously discussed, an approach using the code from the DQN project exercise in the Deep Q-Networks lesson, where a DQN implementation was applied to the OpenAI Gym LunarLander-v2 environment, was employed as the basis for implementing the agent algorithms. As such, other than the changes described in the above `Adaption` section, the code for the DQN agent was used as is. This therefore implements a DQN agent using a second neural network and associated weights to employ Fixed Q-Targets with an update rate of every 4 steps (using Polyak averaging for the soft update). This therefore implements the following update rule:
 
-\begin{equation}
-Δw={\alpha}(R+{\gamma}max*{a}\hat{q}(S',a,w^{-})-\hat{q}(S,A,w))∇*{w}\hat{q}(S,A,w)
-\end{equation}
+![formula](https://render.githubusercontent.com/render/math?math={\Delta}w={\alpha}(R%2B{\gamma}max_a\hat{q}(S',a,w^{-})-\hat{q}(S,A,w)){\nabla}_w\hat{q}(S,A,w))
 
 where
-\begin{equation}
-R+{\gamma}max*{a}\hat{q}(S',a,w^{-})-\hat{q}(S,A,w)
-\end{equation}
+
+![formula](https://render.githubusercontent.com/render/math?math=R%2B{\gamma}max_a\hat{q}(S',a,w^{-})-\hat{q}(S,A,w))
+
 is the temporal difference error (TD error), and
-\begin{equation}
-R+{\gamma}max*{a}\hat{q}(S',a,w^{-})
-\end{equation}
+
+![formula](https://render.githubusercontent.com/render/math?math=R%2B{\gamma}max_a\hat{q}(S',a,w^{-}))
+
 is the TD target, and
-\begin{equation}
-\hat{q}(S,A,w)
-\end{equation}
+
+![formula](https://render.githubusercontent.com/render/math?math=\hat{q}(S,a,w))
+
 is the current value, and
-\begin{equation}
-{\alpha},R,{\gamma},S',S,\hat{q},w,w^{-},∇\_{w}
-\end{equation}
+
+![formula](https://render.githubusercontent.com/render/math?math={\alpha},R,{\gamma},S',S,\hat{q},w,w^{-},{\nabla}_w)
+
 refer to the step size, reward, discount factor, next state, current state, q-table, network weights, target network weights, and differentiation with respect to w, respectively.
 
 The above is implemented in the `learn` function of the `DQN_Agent` class in the `dqn_agent.py` file as follows:
