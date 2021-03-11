@@ -410,7 +410,7 @@ The following are reward plots for each agent.
 
 ![DQN Agent](./images/DQN.jpg)
 ![double DQN Agent](./images/double_DQN.jpg)
-![dueling DQN Agent](./images/dueling_DQN.jpg)
+![dueling DQN Agent](./images/dueling_dqn.jpg)
 ![PER-PP Agent](./images/per_pp.jpg)
 ![PER-RBP Agent](./images/per_rbp.jpg)
 
