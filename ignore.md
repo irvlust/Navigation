@@ -178,9 +178,7 @@ The above is implemented in the `learn` function of the `DQN_Agent` class in the
 
 The previous DQN agent is recycled here with a slight change in the TD target as follows (refer to formula of previous section):
 
-\begin{equation}
-Target=R+{\gamma}\hat{q}(S',argmax\_{a}\hat{q}(S',a,w),w^{-})
-\end{equation}
+![formula](https://render.githubusercontent.com/render/math?math=Target=R%2B{\gamma}\hat{q}(S',argmax_a\hat{q}(S',a,w),w^{-}))
 
 The above is implemented in the `learn` function of the `Double_DQN_Agent` class in the `double_dqn_agent.py` file as follows:
 
@@ -216,6 +214,11 @@ It was decided to use the following forward mapping (the 2nd module alternative 
 \begin{equation}
 Q(s,a;{\theta},{\alpha},{\beta})=V(s;{\theta},{\beta}) + (A(s,a;{\theta},{\alpha}) - \frac{1}{|A|}\sum\_{a'}A(s,a';{\theta},{\alpha}))
 \end{equation}
+
+![formula](https://render.githubusercontent.com/render/math?math=Q(s,a%3B\theta,\alpha,\beta)=V(s%3B\theta,\beta)%2B(A(s,a%3B\theta,\alpha)-\frac{1}{|A|}\sum_{a'}A(s,a'%3B\theta,\alpha)))
+
+R%2B{\gamma}\hat{q}(S',argmax_a\hat{q}(S',a,w),w^{-}))
+
 
 The following code describes the details of the model:
 
@@ -407,7 +410,7 @@ The following are reward plots for each agent.
 
 ![DQN Agent](./images/DQN.jpg)
 ![double DQN Agent](./images/double_DQN.jpg)
-![dueling DQN Agent](./images/dueling_DQN.jpg)
+![dueling DQN Agent](./images/dueling_dqn.jpg)
 ![PER-PP Agent](./images/per_pp.jpg)
 ![PER-RBP Agent](./images/per_rbp.jpg)
 
