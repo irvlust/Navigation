@@ -124,11 +124,13 @@ A number of Deep Learning agents were developed. The following table outlines th
 | <p align="left">Prioritized Experience Replay using Proportional Prioritization (PER-PP) </p> | <p align="left">[Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)</p>                                   | <p align="left">PER_PP_agent.py</p>      | <p align="left">PER_PP_Agent</p>      |
 | <p align="left">Prioritized Experience Replay using Rank Based Prioritization (PER-RBP) </p>  | <p align="left">[Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)</p>                                   | <p align="left">PER_RBP_agent.py</p>     | <p align="left">PER_RBP_Agent</p>     |
 
-The agents were developed based on the algorithms described in these papers.
+The agents were developed based on the algorithms described in these papers.  The following sections provide a short discussion of each of the developed agent implementations and the models used.
 
-The neural network models for these agents are in the `model.py` file. All agents, except for the Dueling DQN agent, use the `QNetwork model` class. This is the unmodified class from the original DQN project exercise and will therefore not be outlined here.
+#### Models
 
-The following sections provide a short discussion of each of the developed agent implementations.
+The neural network models for these agents are in the `model.py` file. All agents, except for the Dueling DQN agent, use the `QNetwork model` class. This is the unmodified class from the original DQN project exercise solution.
+
+![QNetwork Model](./images/nn_block.jpg)
 
 #### DQN
 
