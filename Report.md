@@ -216,9 +216,6 @@ It was decided to use the following forward mapping (the 2nd module alternative 
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q(s,a%3B\theta,\alpha,\beta)=V(s%3B\theta,\beta)%2B(A(s,a%3B\theta,\alpha)-\frac{1}{|A|}\sum_{a'}A(s,a'%3B\theta,\alpha)))
 
-R%2B{\gamma}\hat{q}(S',argmax_a\hat{q}(S',a,w),w^{-}))
-
-
 The following code describes the details of the model:
 
 ```python
