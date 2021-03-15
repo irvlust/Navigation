@@ -112,7 +112,7 @@ class XXX_Agent():
 
 This, and the control of the ε-greedy epsilon parameters in the training_loop function in the `Project 1.ipynb` notebook, provided some minimal ability to help manually fine tune some hyperparameters and improve performance.
 
-### Agent Algorithms
+### Agent Algorithms & Neural Net Models
 
 A number of Deep Learning agents were developed. The following table outlines thier associated file and class names, and includes a link to the papers where these algorithms are outlined.
 
