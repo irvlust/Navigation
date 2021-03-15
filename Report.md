@@ -29,7 +29,6 @@ The following provides a list of the key files and directories in the main proje
 | :---------------------------------------- | :------------------------------------------------------------------------------------------------ |
 | <p align="left">README.md</p>             | <p align="left">Main readme</p>                                                                   |
 | <p align="left">Report.md</p>             | <p align="left">Report readme markdown</p>                                                        |
-| <p align="left">Report.ipynb</p>          | <p align="left">Report python notebook</p>                                                        |
 | <p align="left">Project 1.ipynb</p>       | <p align="left">Main training loop python notebook</p>                                            |
 | <p align="left">dqn_agent.py</p>          | <p align="left">DQN agent python file</p>                                                         |
 | <p align="left">double_dqn_agent.py</p>   | <p align="left">Double DQN agent python file</p>                                                  |
